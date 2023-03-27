@@ -1,12 +1,12 @@
 ---
-site_name: {{cookiecutter.repository}}  # yamllint disable-line
+site_name: FLiP-Py-Airports  # yamllint disable-line
 site_description: ...
 site_url: >
-  https://{{cookiecutter.repository_owner}}.github.io/{{cookiecutter.repository}}
+  https://tspannhw.github.io/FLiP-Py-Airports
 repo_url: >
-  https://github.com/{{cookiecutter.repository_owner}}/{{cookiecutter.repository}}
+  https://github.com/tspannhw/FLiP-Py-Airports
 repo_name: >
-  '{{cookiecutter.repository_owner}}/{{cookiecutter.repository}}'  # yamllint disable-line
+  'tspannhw/FLiP-Py-Airports'  # yamllint disable-line
 
 nav:
   - Overview: README.md
@@ -58,7 +58,7 @@ plugins:
             heading_level: 2
             enable_inventory: true
       watch:
-        - src/{{cookiecutter.repository}}
+        - src/FLiP-Py-Airports
   - minify:
       minify_html: true
       htmlmin_opts:
